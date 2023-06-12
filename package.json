@@ -28,7 +28,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "start nodemon db --ignore frontend-js --ignore public/ && start webpack --watch"
+    "watch": "nodemon db --ignore frontend-js --ignore public/ & webpack --watch"
   },
   "repository": {
     "type": "git",
